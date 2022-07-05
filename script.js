@@ -14,7 +14,7 @@ let li = $('<li></li>');  //  You can store each li element in a variable
 
 //2. Crossing out an item from the list of items:
 function crossOut() {
- 		li.classList.toggle("strike");
+ 		li.toggleClass("strike");
  	}
 
 li.on("dblclick", function crossOut() { //Using on instead of addEventListener.  first argument is dblclick and second is crossOut
